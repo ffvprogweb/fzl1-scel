@@ -57,10 +57,10 @@ class REQ02ConsultarLivroAPITests {
 		// Entao - retorna 2
 		assertEquals(2, lista.size());
 		// validacao do estado
-		Livro re = new Livro("1111", "Teste de Software", "Delamaro");
-		Livro ro = resposta.getBody().get(0);
-		re.setId(ro.getId());
-		assertEquals(re.getId(), ro.getId());
+		//Livro re = new Livro("1111", "Teste de Software", "Delamaro");
+		//Livro ro = resposta.getBody().get(0);
+		//re.setId(ro.getId());
+		//assertEquals(re.getId(), ro.getId());
 		//assertTrue(re.equals(ro));
 	}
 
